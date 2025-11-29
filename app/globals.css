@@ -1,0 +1,82 @@
+/* Additional global dark mode styles */
+body.dark-mode input[type="date"]::-webkit-calendar-picker-indicator,
+body.dark-mode input[type="time"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+body.dark-mode ::placeholder {
+  color: #718096;
+}
+
+body.dark-mode ::-webkit-scrollbar {
+  width: 12px;
+}
+
+body.dark-mode ::-webkit-scrollbar-track {
+  background: #1a202c;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb {
+  background: #4a5568;
+  border-radius: 6px;
+}
+
+body.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #718096;
+}
+
+/* MUI Date Picker Styling */
+.mui-date-picker .MuiInputBase-root {
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.mui-date-picker .MuiOutlinedInput-root {
+  border-radius: 10px;
+}
+
+.mui-date-picker .MuiOutlinedInput-notchedOutline {
+  border-width: 2px;
+  border-color: #e2e8f0;
+}
+
+.mui-date-picker .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #cbd5e0;
+}
+
+.mui-date-picker .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #667eea;
+  border-width: 2px;
+}
+
+body.dark-mode .mui-date-picker .MuiOutlinedInput-root {
+  background: rgba(45, 55, 72, 0.6);
+  color: #e2e8f0;
+}
+
+body.dark-mode .mui-date-picker .MuiOutlinedInput-notchedOutline {
+  border-color: #4a5568;
+}
+
+body.dark-mode .mui-date-picker .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #718096;
+}
+
+body.dark-mode .mui-date-picker .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #4299e1;
+}
+
+body.dark-mode .mui-date-picker .MuiInputBase-input {
+  color: #e2e8f0;
+}
+
+body.dark-mode .mui-date-picker .MuiSvgIcon-root {
+  color: #e2e8f0;
+}
+
+.mui-date-picker .MuiFormHelperText-root {
+  margin-left: 0;
+  margin-top: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
